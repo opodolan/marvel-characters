@@ -1,0 +1,13 @@
+@import "./Variables.scss";
+
+body {
+ font-family: $font-family;
+ margin: 0;
+ padding: 0;
+ background-color: $background-color;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}

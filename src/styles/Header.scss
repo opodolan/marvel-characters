@@ -1,0 +1,35 @@
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ min-height: 5rem;
+ padding: 0 3rem;
+ background-color: #000;
+ color: white;
+
+ @media only screen and (max-width: 768px) {
+  padding: 0 1rem;
+ }
+}
+
+.logo {
+ height: 50px;
+}
+
+header input {
+ width: 300px;
+ padding: 5px;
+ font-size: 1em;
+}
+
+header .favorites-icon .count {
+ vertical-align: bottom;
+ margin-left: 0.5rem;
+ line-height: 1.8rem;
+ font-size: 0.9rem;
+}
+
+header .favorites-icon img {
+ width: "20px";
+ height: "20px";
+}

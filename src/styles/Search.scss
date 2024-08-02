@@ -1,0 +1,51 @@
+@import "./Variables.scss";
+
+.search {
+ position: relative;
+ margin: 2rem 5rem;
+
+ @media only screen and (max-width: 768px) {
+  margin: 1.5rem 3.5rem;
+ }
+
+ .search-input {
+  font-family: $font-family;
+  width: 100%;
+  line-height: 2.5rem;
+  padding: 0 30px;
+  margin-left: -30px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #AAAAAA;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+ }
+ 
+ .search-input:focus {
+  color: black;
+ }
+
+ .search-icon {
+  position: absolute;
+  top: 13px;
+  left: -30px;
+ }
+}
+
+.results {
+ font-family: 'Roboto Condensed';
+ margin-top: 0.7rem;
+ margin-left: -2rem;
+ font-weight: 400;
+
+ @media only screen and (max-width: 768px) {
+  font-size: .85rem;
+ }
+}
+
+.results span {
+ text-transform: uppercase;
+ margin-left: 0.3rem;
+}

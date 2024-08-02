@@ -1,0 +1,13 @@
+.favorites {
+ .title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 3rem 3rem 0;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 768px) {
+   font-size: 1.5rem;
+   margin: 1.5rem 1.5rem 0;
+  }
+ }
+}
